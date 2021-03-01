@@ -1,0 +1,15 @@
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.Repository.deps.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.Repository.runtimeconfig.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.Repository.runtimeconfig.dev.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.Repository.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.Repository.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\bin\Debug\netcoreapp2.1\EmployeesManager.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.AssemblyInfo.cs
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.csproj.CopyComplete
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Repository\obj\Debug\netcoreapp2.1\EmployeesManager.Repository.genruntimeconfig.cache

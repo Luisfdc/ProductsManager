@@ -1,0 +1,30 @@
+<div class="box box-primary">
+  <div class="box-header with-border">
+    <h3 class="box-title">Novo Funcionário</h3>
+  </div>
+  <!-- /.box-header -->
+  <form #productForm="ngForm" class="form-class">
+    <div class="box-body">
+      <div class="form-group">
+        <label for="description">Descrição</label>
+        <input type="text" class="form-control" id="description" required #name="ngModel" name="description" [(ngModel)]="product.description" #description="ngModel" placeholder="Descrição">
+        <div [hidden]="!description.invalid || description.pristine" class="alert alert-danger"> O Descrição é Obrigatório </div>
+      </div>
+      <div class="form-group">
+        <label for="price">Preço</label>
+        <input type="text" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" class="form-control" id="price" required #email="ngModel" name="price" placeholder="Preço" #price="ngModel" [(ngModel)]="product.price">
+        <div [hidden]="!price.invalid || price.pristine" class="alert alert-danger"> O Preço é Obrigatório </div>
+      </div>
+      <div class="form-group">
+        <label for="image">Imagem</label>
+        <input type="text" class="form-control" id="image" required #email="ngModel" name="image" placeholder="Imagem" #image="ngModel" [(ngModel)]="product.image">
+        <div [hidden]="!image.invalid || image.pristine" class="alert alert-danger"> O Imagem é Obrigatório </div>
+      </div>
+    </div>
+  </form>
+
+    <div class="box-footer">
+      <button type="submit" (click)="salvar(product)" [disabled]="description.invalid || price.invalid || image.invalid" class="btn btn-primary">Salvar</button>
+    </div>
+
+</div>

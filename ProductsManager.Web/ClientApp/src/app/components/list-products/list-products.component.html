@@ -1,0 +1,29 @@
+<table #dataTable class="display" style="width:100%">
+  <thead>
+    <tr>
+      <th>Descrição</th>
+      <th>Preço</th>
+      <th>Imagem</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products" id="td-{{product.id}}">
+      <td>{{product.description}}</td>
+      <td>{{product.price | currency: 'BRL':true:'1.2-2'}}</td>
+      <td>{{product.Image}}</td>
+      <td>
+          <a class="btn btn-app btn-danger" (click)="deleteProduct(product.id)"><i class="fa fa-trash-o"></i>Excluir</a>
+          <a class="btn btn-app btn-warning" (click)="openProduct(product.id)"><i class="fa fa-trash-o"></i>Editar</a>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Descrição</th>
+      <th>Preço</th>
+      <th>Imagem</th>
+      <th></th>
+    </tr>
+  </tfoot>
+</table>

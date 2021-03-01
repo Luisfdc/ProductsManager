@@ -1,0 +1,9 @@
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\bin\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.deps.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\bin\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\bin\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\obj\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\obj\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\obj\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.AssemblyInfo.cs
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\obj\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\obj\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Infra.IoC\obj\Debug\netcoreapp3.1\ProductsManager.Infra.IoC.pdb

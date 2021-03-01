@@ -1,0 +1,12 @@
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\bin\Debug\netcoreapp2.1\ProductsManager.Aplication.deps.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\bin\Debug\netcoreapp2.1\ProductsManager.Aplication.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\bin\Debug\netcoreapp2.1\ProductsManager.Aplication.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\bin\Debug\netcoreapp2.1\ProductsManager.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\bin\Debug\netcoreapp2.1\ProductsManager.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.AssemblyInfo.cs
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.csproj.CopyComplete
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\ProductsManager.Aplication\obj\Debug\netcoreapp2.1\ProductsManager.Aplication.pdb

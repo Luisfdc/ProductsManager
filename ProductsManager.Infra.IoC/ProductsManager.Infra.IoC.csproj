@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductsManager.Aplication\ProductsManager.Aplication.csproj" />
+    <ProjectReference Include="..\ProductsManager\ProductsManager.csproj" />
+    <ProjectReference Include="..\ProductsManager.Infra.Data\ProductsManager.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

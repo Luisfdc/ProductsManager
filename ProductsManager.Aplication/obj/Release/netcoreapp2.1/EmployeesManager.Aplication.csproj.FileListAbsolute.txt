@@ -1,0 +1,14 @@
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.Aplication.deps.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.Aplication.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.Aplication.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.Repository.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.Repository.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\bin\Release\netcoreapp2.1\EmployeesManager.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.AssemblyInfo.cs
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.csproj.CopyComplete
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager.Aplication\obj\Release\netcoreapp2.1\EmployeesManager.Aplication.pdb

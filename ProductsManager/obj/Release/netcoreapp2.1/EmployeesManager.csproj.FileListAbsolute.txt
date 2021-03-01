@@ -1,0 +1,9 @@
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\bin\Release\netcoreapp2.1\EmployeesManager.deps.json
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\bin\Release\netcoreapp2.1\EmployeesManager.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\bin\Release\netcoreapp2.1\EmployeesManager.pdb
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\obj\Release\netcoreapp2.1\EmployeesManager.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\obj\Release\netcoreapp2.1\EmployeesManager.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\obj\Release\netcoreapp2.1\EmployeesManager.AssemblyInfo.cs
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\obj\Release\netcoreapp2.1\EmployeesManager.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\obj\Release\netcoreapp2.1\EmployeesManager.dll
+C:\Users\camil\Google Drive\teste\Employee-Manager\EmployeesManager\obj\Release\netcoreapp2.1\EmployeesManager.pdb

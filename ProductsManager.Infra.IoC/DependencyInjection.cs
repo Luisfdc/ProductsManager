@@ -1,8 +1,11 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using FluentValidation;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ProductsManager.Aplication;
+using ProductsManager.Entities;
 using ProductsManager.Infra.Data;
 using ProductsManager.Interfaces;
+using ProductsManager.Validations;
 using System;
 
 namespace ProductsManager.Infra.IoC

@@ -1,20 +1,20 @@
-<table #dataTable class="display" style="width:100%">
+<table [hidden]="!products" #dataTable class="dataTable" style="width:100%">
   <thead>
     <tr>
+      <th>Imagem</th>
       <th>Descrição</th>
       <th>Preço</th>
-      <th>Imagem</th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let product of products" id="td-{{product.id}}">
+      <td><img src="{{product.image}}" style="width:10em;" /></td>
       <td>{{product.description}}</td>
       <td>{{product.price | currency: 'BRL':true:'1.2-2'}}</td>
-      <td>{{product.Image}}</td>
       <td>
-          <a class="btn btn-app btn-danger" (click)="deleteProduct(product.id)"><i class="fa fa-trash-o"></i>Excluir</a>
-          <a class="btn btn-app btn-warning" (click)="openProduct(product.id)"><i class="fa fa-trash-o"></i>Editar</a>
+        <a class="btn btn-danger btn-product" (click)="deleteProduct(product.id)" title="Excluir"><i class="fa fa-trash-o"></i></a>
+        <a class="btn btn-warning btn-product" (click)="openProduct(product.id)" title="Editar"><i class="fa fa-edit"></i></a>
       </td>
     </tr>
   </tbody>
@@ -27,3 +27,5 @@
     </tr>
   </tfoot>
 </table>
+
+

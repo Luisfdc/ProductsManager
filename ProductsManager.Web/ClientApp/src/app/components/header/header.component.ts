@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthenticationService } from 'src/app/services/authentication.service';
+import { AuthenticationService } from '../../services/authentication.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,14 +9,20 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
 })
 export class HeaderComponent implements OnInit {
   public userName: string;
-  constructor(private authenticationService: AuthenticationService) {
+  loading = false;
+  submitted = false;
+  returnUrl: string;
+  error = '';
 
-  }
+  constructor(private router: Router, private authenticationService: AuthenticationService) {}
 
   ngOnInit() {
-    this.authenticationService.getUser().subscribe(result => {
-      this.userName = result.name;
-    });
   }
 
+
+  sair() {
+    this.authenticationService.logout();
+    this.router.navigate(["/Login"]);
+  }
+  
 }

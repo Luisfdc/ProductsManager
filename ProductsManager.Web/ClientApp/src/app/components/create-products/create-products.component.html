@@ -16,8 +16,9 @@
         <div [hidden]="!price.invalid || price.pristine" class="alert alert-danger"> O Preço é Obrigatório </div>
       </div>
       <div class="form-group">
-        <label for="image">Imagem</label>
+        <label for="image">URL Imagem</label>
         <input type="text" class="form-control" id="image" required #email="ngModel" name="image" placeholder="Imagem" #image="ngModel" [(ngModel)]="product.image">
+        <img src="{{product.image}}" style="width:10em;" />
         <div [hidden]="!image.invalid || image.pristine" class="alert alert-danger"> O Imagem é Obrigatório </div>
       </div>
     </div>

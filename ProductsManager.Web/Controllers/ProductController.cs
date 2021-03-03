@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductsManager.Entities;
 using ProductsManager.Interfaces;
+using FluentValidation;
 
 namespace ProductsManager.Web.Controllers
 {
@@ -24,7 +25,7 @@ namespace ProductsManager.Web.Controllers
 
         // GET: api/Product/productId
         [HttpGet, Route("{productId}")]
-        public async Task<ActionResult<Product>>  Get([FromRoute] int productId)
+        public async Task<IActionResult>  Get([FromRoute] int productId)
         {
             var product = _productsAplication.GetProduct(productId);
 
@@ -38,7 +39,7 @@ namespace ProductsManager.Web.Controllers
 
         // GET: api/Product
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> Get()
+        public async Task<IActionResult> Get()
         {
             var products =  _productsAplication.GetAllProducts();
 
@@ -53,33 +54,33 @@ namespace ProductsManager.Web.Controllers
 
         // POST: api/Product
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Product value)
+        public async Task<IActionResult> Post([FromBody] Product product)
         {
-            if (!value.ProductDescriptionValidation())
-                return BadRequest();
+            if (!product.IsValid())
+                return BadRequest(product.ValidationResult.Errors);
 
-            _productsAplication.AddProducts(value);
+            _productsAplication.AddProduct(product);
 
             return Ok();
         }
 
         // PU: api/Product
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] Product value)
+        public async Task<IActionResult> Put([FromBody] Product product)
         {
-            if (!value.ProductDescriptionValidation())
-                return BadRequest();
+            if (!product.IsValid())
+                return BadRequest(product.ValidationResult.Errors);
 
-            _productsAplication.UpdateProducts(value);
+            _productsAplication.UpdateProduct(product);
 
             return Ok();
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            _productsAplication.DeleteProducts(id);
+            _productsAplication.DeleteProduct(id);
 
             return Ok();
         }

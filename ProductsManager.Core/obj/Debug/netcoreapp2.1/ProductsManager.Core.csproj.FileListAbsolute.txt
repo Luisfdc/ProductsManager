@@ -1,0 +1,9 @@
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\bin\Debug\netcoreapp2.1\ProductsManager.Core.deps.json
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\bin\Debug\netcoreapp2.1\ProductsManager.Core.dll
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\bin\Debug\netcoreapp2.1\ProductsManager.Core.pdb
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\obj\Debug\netcoreapp2.1\ProductsManager.Core.csprojAssemblyReference.cache
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\obj\Debug\netcoreapp2.1\ProductsManager.Core.AssemblyInfoInputs.cache
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\obj\Debug\netcoreapp2.1\ProductsManager.Core.AssemblyInfo.cs
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\obj\Debug\netcoreapp2.1\ProductsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\obj\Debug\netcoreapp2.1\ProductsManager.Core.dll
+C:\Users\camil\Google Drive\teste\ProductsManager\ProductsManager.Core\obj\Debug\netcoreapp2.1\ProductsManager.Core.pdb

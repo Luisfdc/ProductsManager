@@ -9,8 +9,8 @@ namespace ProductsManager.Interfaces
     {
         List<Product> GetAllProducts();
         Product GetProduct(int id);
-        void AddProducts(Product product);
-        void UpdateProducts(Product product);
-        void DeleteProducts(int Id);
+        void AddProduct(Product product);
+        void UpdateProduct(Product product);
+        void DeleteProduct(int Id);
     }
 }

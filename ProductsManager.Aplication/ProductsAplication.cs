@@ -15,12 +15,12 @@ namespace ProductsManager.Aplication
             _productsRepository = productsRepository;
         }
 
-        public void AddProducts(Product product)
+        public void AddProduct(Product product)
         {
             _productsRepository.Add(product);
         }
 
-        public void DeleteProducts(int id)
+        public void DeleteProduct(int id)
         {
             _productsRepository.Delete(id);
         }
@@ -35,7 +35,7 @@ namespace ProductsManager.Aplication
             return _productsRepository.GetEntity(id);
         }
 
-        public void UpdateProducts(Product product)
+        public void UpdateProduct(Product product)
         {
             _productsRepository.Update(product);
         }

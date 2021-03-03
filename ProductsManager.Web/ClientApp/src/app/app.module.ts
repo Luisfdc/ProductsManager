@@ -16,6 +16,7 @@ import { ListProductsComponent } from './components/list-products/list-products.
 import { CreateProductsComponent } from './components/create-products/create-products.component';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './auth-guard';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AuthGuard } from './auth-guard';
     MenuComponent,
     ListProductsComponent,
     CreateProductsComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,7 @@ import { AuthGuard } from './auth-guard';
       { path: 'Product', component: CreateProductsComponent, canActivate: [AuthGuard] },
       { path: 'Product/:id', component: CreateProductsComponent, canActivate: [AuthGuard] },
       { path: 'login', component: LoginComponent },
-      { path: '', component: LoginComponent },
+      { path: '', component: HomeComponent, canActivate: [AuthGuard] },
 
       // otherwise redirect to home
       { path: '**', redirectTo: '' }

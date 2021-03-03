@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DfUVoup/f0ZkjJZJXqP5IDBiH6H7Ce683ualHmAW3gad1yf8p5qE6ElAz60FIaDdcxHx2FddSkyfphnZbZxrfA==",
+  "dgSpecHash": "FHTpM7tGlAEmxg+qCGP9EWqw1jMcpRCLrVeXh1Es76p2C8kdr4iTJg3bCYxQpAJy6JfEZcfOvMZKxgFCjdmJWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\camil\\Google Drive\\teste\\ProductsManager\\ProductsManager.Infra.Data\\ProductsManager.Infra.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\luisf\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
+    "C:\\Users\\luisf\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\luisf\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\luisf\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",

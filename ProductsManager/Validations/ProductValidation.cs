@@ -19,7 +19,7 @@ namespace ProductsManager.Validations
                 .NotEmpty();
 
             RuleFor(e => e.Price)
-                .GreaterThanOrEqualTo(0);
+                .GreaterThan(0);
         }
 
     }
